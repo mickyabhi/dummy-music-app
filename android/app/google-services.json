@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "1016382853563",
+    "firebase_url": "https://neend-app-default-rtdb.firebaseio.com",
+    "project_id": "neend-app",
+    "storage_bucket": "neend-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016382853563:android:1ef092235b53b253a8b49e",
+        "android_client_info": {
+          "package_name": "com.neend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016382853563-2l93ecg9f8k463cm4d3frsnao55o3e90.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neend",
+            "certificate_hash": "d75b47d68ccb6b2aa98dec74f5a1382ced3024b8"
+          }
+        },
+        {
+          "client_id": "1016382853563-3kvb9sg53gsb80r0h2b6o587otjhifq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neend",
+            "certificate_hash": "cb4669766d0d27868090cd2f8e6e172119862be8"
+          }
+        },
+        {
+          "client_id": "1016382853563-ctodkut66kcqqalb4he2v5ocm59615dr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neend",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1016382853563-fq15hi5o8b9e789ihn20kt0brap0t3aj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neend",
+            "certificate_hash": "c2e8ec0942b77c0dec636cc947c0544d789ae575"
+          }
+        },
+        {
+          "client_id": "1016382853563-hbpi26hq9nuer1qomuldl9l91rptgu2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtMI-p7O9n5OJ1MxEO-UNoRdsejdN2TOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016382853563-hbpi26hq9nuer1qomuldl9l91rptgu2b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1016382853563-31f4qm8ielutqcepjef3097jupoqhn0q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.neend"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

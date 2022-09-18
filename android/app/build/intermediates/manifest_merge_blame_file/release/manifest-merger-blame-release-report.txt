@@ -1,0 +1,946 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.neend"
+4    android:versionCode="85"
+5    android:versionName="1.0.65" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:4:5-81
+12-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.READ_PROFILE" />
+13-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:5:5-70
+13-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:5:22-68
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:6:22-77
+15    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+15-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:7:5-88
+15-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:7:22-85
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:8:5-66
+16-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:8:22-63
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:9:5-80
+17-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-79
+18-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-68
+19-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-65
+20
+21    <queries>
+21-->[com.facebook.android:facebook-common:14.1.1] /home/xto10x/.gradle/caches/transforms-3/3632695618f58b121ce2c4d8e1a62970/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:29:5-31:15
+22        <package android:name="com.facebook.katana" />
+22-->[com.facebook.android:facebook-common:14.1.1] /home/xto10x/.gradle/caches/transforms-3/3632695618f58b121ce2c4d8e1a62970/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:30:9-55
+22-->[com.facebook.android:facebook-common:14.1.1] /home/xto10x/.gradle/caches/transforms-3/3632695618f58b121ce2c4d8e1a62970/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:30:18-52
+23        <package android:name="com.truecaller" />
+23-->[com.truecaller.android.sdk:truecaller-sdk:2.6.0] /home/xto10x/.gradle/caches/transforms-3/b98ceda196ca80d67b54bfa6ec1990f3/transformed/jetified-truecaller-sdk-2.6.0/AndroidManifest.xml:45:9-50
+23-->[com.truecaller.android.sdk:truecaller-sdk:2.6.0] /home/xto10x/.gradle/caches/transforms-3/b98ceda196ca80d67b54bfa6ec1990f3/transformed/jetified-truecaller-sdk-2.6.0/AndroidManifest.xml:45:18-47
+24        <package android:name="com.truecaller.debug" />
+24-->[com.truecaller.android.sdk:truecaller-sdk:2.6.0] /home/xto10x/.gradle/caches/transforms-3/b98ceda196ca80d67b54bfa6ec1990f3/transformed/jetified-truecaller-sdk-2.6.0/AndroidManifest.xml:46:9-56
+24-->[com.truecaller.android.sdk:truecaller-sdk:2.6.0] /home/xto10x/.gradle/caches/transforms-3/b98ceda196ca80d67b54bfa6ec1990f3/transformed/jetified-truecaller-sdk-2.6.0/AndroidManifest.xml:46:18-53
+25
+26        <intent>
+26-->[androidx.media:media:1.4.1] /home/xto10x/.gradle/caches/transforms-3/9b7f92a67798ffc3104a533ea80ad911/transformed/media-1.4.1/AndroidManifest.xml:25:9-27:18
+27            <action android:name="android.media.browse.MediaBrowserService" />
+27-->[androidx.media:media:1.4.1] /home/xto10x/.gradle/caches/transforms-3/9b7f92a67798ffc3104a533ea80ad911/transformed/media-1.4.1/AndroidManifest.xml:26:13-79
+27-->[androidx.media:media:1.4.1] /home/xto10x/.gradle/caches/transforms-3/9b7f92a67798ffc3104a533ea80ad911/transformed/media-1.4.1/AndroidManifest.xml:26:21-76
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required to access Google Play Licensing -->
+31-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-77
+31-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-74
+32    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required to check whether Wi-Fi is enabled -->
+32-->[:rn-fetch-blob] /home/xto10x/Documents/neend-mobile-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-73
+32-->[:rn-fetch-blob] /home/xto10x/Documents/neend-mobile-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-70
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+33-->[:rn-fetch-blob] /home/xto10x/Documents/neend-mobile-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-76
+33-->[:rn-fetch-blob] /home/xto10x/Documents/neend-mobile-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:22-73
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+34-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+35    <uses-permission android:name="com.truecaller.permission.sdk.internal.read_account_state" />
+35-->[com.truecaller.android.sdk:truecaller-sdk:2.6.0] /home/xto10x/.gradle/caches/transforms-3/b98ceda196ca80d67b54bfa6ec1990f3/transformed/jetified-truecaller-sdk-2.6.0/AndroidManifest.xml:38:5-97
+35-->[com.truecaller.android.sdk:truecaller-sdk:2.6.0] /home/xto10x/.gradle/caches/transforms-3/b98ceda196ca80d67b54bfa6ec1990f3/transformed/jetified-truecaller-sdk-2.6.0/AndroidManifest.xml:38:22-94
+36    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+36-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/xto10x/.gradle/caches/transforms-3/9df07066ae13c5b7b37257d4d95e1840/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+36-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/xto10x/.gradle/caches/transforms-3/9df07066ae13c5b7b37257d4d95e1840/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+38
+39    <application
+39-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:10:5-60:19
+40        android:name="com.neend.MainApplication"
+40-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:11:9-40
+41        android:allowBackup="false"
+41-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:12:9-36
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.7.0] /home/xto10x/.gradle/caches/transforms-3/3910bcbdacd4ec32caaebf0818201543/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+43        android:icon="@mipmap/ic_launcher"
+43-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:13:9-43
+44        android:label="@string/app_name"
+44-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:14:9-41
+45        android:supportsRtl="true"
+45-->[com.facebook.android:facebook-android-sdk:14.1.1] /home/xto10x/.gradle/caches/transforms-3/8ae57df05bfdd2c63145e11ca32735c9/transformed/jetified-facebook-android-sdk-14.0.0/AndroidManifest.xml:28:18-44
+46        android:theme="@style/AppTheme" >
+46-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:15:9-40
+47        <meta-data
+47-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:16:8-106
+48            android:name="com.facebook.sdk.ApplicationId"
+48-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:16:19-64
+49            android:value="@string/facebook_app_id" />
+49-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:16:65-104
+50        <meta-data
+50-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:17:9-116
+51            android:name="com.truecaller.android.sdk.PartnerKey"
+51-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:17:20-72
+52            android:value="@string/truecaller_appkey" />
+52-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:17:73-114
+53        <meta-data
+53-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:18:9-111
+54            android:name="com.facebook.sdk.ClientToken"
+54-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:18:20-63
+55            android:value="@string/facebook_client_token" />
+55-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:18:64-109
+56
+57        <activity
+57-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:19:9-40:20
+58            android:name="com.neend.MainActivity"
+58-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:20:11-39
+59            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+59-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:22:11-88
+60            android:exported="true"
+60-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:21:11-34
+61            android:label="@string/app_name"
+61-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:23:11-43
+62            android:launchMode="singleTask"
+62-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:24:11-42
+63            android:screenOrientation="portrait"
+63-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:26:11-47
+64            android:windowSoftInputMode="adjustResize" >
+64-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:25:11-53
+65            <intent-filter>
+65-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:28:13-31:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:29:15-67
+66-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:29:23-64
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:30:15-75
+68-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:30:25-72
+69            </intent-filter>
+70            <intent-filter
+70-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:32:13-39:29
+71                android:autoVerify="true"
+71-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:32:53-78
+72                android:exported="false" >
+72-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:32:28-52
+73                <action android:name="android.intent.action.VIEW" />
+73-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:17-69
+73-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:25-66
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:17-76
+75-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:27-73
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:17-78
+76-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:27-75
+77
+78                <data android:scheme="neend" />
+78-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:17-47
+78-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:23-45
+79                <data
+79-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:17-47
+80                    android:host="neend.app"
+80-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:37:69-93
+81                    android:pathPrefix="/"
+81-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:37:46-68
+82                    android:scheme="http" />
+82-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:23-45
+83                <data
+83-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:17-47
+84                    android:host="neend.app"
+84-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:37:69-93
+85                    android:pathPrefix="/"
+85-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:37:46-68
+86                    android:scheme="https" />
+86-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:23-45
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:41:9-43:44
+90            android:name="com.facebook.FacebookActivity"
+90-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:41:19-63
+91            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+91-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:42:9-92
+92            android:label="@string/app_name"
+92-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:43:9-41
+93            android:theme="@style/com_facebook_activity_theme" />
+93-->[com.facebook.android:facebook-common:14.1.1] /home/xto10x/.gradle/caches/transforms-3/3632695618f58b121ce2c4d8e1a62970/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:37:13-63
+94        <activity
+94-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:44:5-53:16
+95            android:name="com.facebook.CustomTabActivity"
+95-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:45:9-54
+96            android:exported="true" >
+96-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:46:9-32
+97            <intent-filter>
+97-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:47:9-52:25
+98                <action android:name="android.intent.action.VIEW" />
+98-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:17-69
+98-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:17-76
+100-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:27-73
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:17-78
+101-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:27-75
+102
+103                <data android:scheme="@string/fb_login_protocol_scheme" />
+103-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:17-47
+103-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:23-45
+104            </intent-filter>
+105            <intent-filter>
+105-->[com.facebook.android:facebook-common:14.1.1] /home/xto10x/.gradle/caches/transforms-3/3632695618f58b121ce2c4d8e1a62970/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:43:13-52:29
+106                <action android:name="android.intent.action.VIEW" />
+106-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:17-69
+106-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:25-66
+107
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:17-76
+108-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:27-73
+109                <category android:name="android.intent.category.BROWSABLE" />
+109-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:17-78
+109-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:27-75
+110
+111                <data
+111-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:17-47
+112                    android:host="cct.com.neend"
+112-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:37:69-93
+113                    android:scheme="fbconnect" />
+113-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:23-45
+114            </intent-filter>
+115        </activity>
+116
+117        <service
+117-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:54:5-59:19
+118            android:name="com.moengage.firebase.MoEFireBaseMessagingService"
+118-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:54:14-78
+119            android:exported="false" >
+119-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:55:13-37
+120            <intent-filter>
+120-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:56:13-58:29
+121                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+121-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:57:17-78
+121-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:57:25-75
+122            </intent-filter>
+123        </service>
+124
+125        <meta-data
+125-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-18:36
+126            android:name="firebase_analytics_collection_enabled"
+126-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-65
+127            android:value="true" />
+127-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-33
+128        <meta-data
+128-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-21:37
+129            android:name="firebase_analytics_collection_deactivated"
+129-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-69
+130            android:value="false" />
+130-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-34
+131        <meta-data
+131-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:9-24:36
+132            android:name="google_analytics_adid_collection_enabled"
+132-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-68
+133            android:value="true" />
+133-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-33
+134        <meta-data
+134-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-27:36
+135            android:name="google_analytics_ssaid_collection_enabled"
+135-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-69
+136            android:value="true" />
+136-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-33
+137        <meta-data
+137-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-30:36
+138            android:name="google_analytics_default_allow_ad_personalization_signals"
+138-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-85
+139            android:value="true" />
+139-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:13-33
+140        <meta-data
+140-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:31:9-33:36
+141            android:name="google_analytics_automatic_screen_reporting_enabled"
+141-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-79
+142            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+142-->[:react-native-firebase_analytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-33
+143        <meta-data
+143-->[:react-native-firebase_crashlytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:9-16:37
+144            android:name="firebase_crashlytics_collection_enabled"
+144-->[:react-native-firebase_crashlytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-67
+145            android:value="false" />
+145-->[:react-native-firebase_crashlytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-34
+146
+147        <provider
+147-->[:react-native-firebase_crashlytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:9-22:38
+148            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+148-->[:react-native-firebase_crashlytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-104
+149            android:authorities="com.neend.reactnativefirebasecrashlyticsinitprovider"
+149-->[:react-native-firebase_crashlytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-94
+150            android:exported="false"
+150-->[:react-native-firebase_crashlytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-37
+151            android:initOrder="98" />
+151-->[:react-native-firebase_crashlytics] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-35
+152
+153        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+153-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-111
+153-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:18-108
+154        <service
+154-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-23:19
+155            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+155-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-95
+156            android:exported="false" >
+156-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+157            <intent-filter>
+157-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:56:13-58:29
+158                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+158-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:57:17-78
+158-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:57:25-75
+159            </intent-filter>
+160        </service>
+161
+162        <receiver
+162-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-32:20
+163            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+163-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-96
+164            android:exported="true"
+164-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-36
+165            android:permission="com.google.android.c2dm.permission.SEND" >
+165-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-73
+166            <intent-filter>
+166-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+167                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+167-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+167-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+168            </intent-filter>
+169        </receiver>
+170
+171        <meta-data
+171-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-36:36
+172            android:name="firebase_messaging_auto_init_enabled"
+172-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-64
+173            android:value="true" />
+173-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-33
+174        <meta-data
+174-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-39:32
+175            android:name="com.google.firebase.messaging.default_notification_channel_id"
+175-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-89
+176            android:value="" />
+176-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-29
+177        <meta-data
+177-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-42:47
+178            android:name="com.google.firebase.messaging.default_notification_color"
+178-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-84
+179            android:resource="@color/white" />
+179-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-44
+180        <meta-data
+180-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:36
+181            android:name="app_data_collection_default_enabled"
+181-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-63
+182            android:value="true" />
+182-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-33
+183
+184        <service
+184-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-20:19
+185            android:name="com.google.firebase.components.ComponentDiscoveryService"
+185-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:18-89
+186            android:directBootAware="true"
+186-->[com.google.firebase:firebase-common:20.1.1] /home/xto10x/.gradle/caches/transforms-3/8126d357e7f200eb8e6f94d672e58360/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+187            android:exported="false" >
+187-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:66:13-37
+188            <meta-data
+188-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:85
+189                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+189-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-120
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-82
+191            <meta-data
+191-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:67:13-69:85
+192                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+192-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:68:17-109
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:69:17-82
+194            <meta-data
+194-->[com.google.firebase:firebase-database:20.0.5] /home/xto10x/.gradle/caches/transforms-3/3c33029b3cfcecc2afb0e3a689b24f69/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+195                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+195-->[com.google.firebase:firebase-database:20.0.5] /home/xto10x/.gradle/caches/transforms-3/3c33029b3cfcecc2afb0e3a689b24f69/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.firebase:firebase-database:20.0.5] /home/xto10x/.gradle/caches/transforms-3/3c33029b3cfcecc2afb0e3a689b24f69/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+197            <meta-data
+197-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:55:13-57:85
+198                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+198-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:56:17-119
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:57:17-82
+200            <meta-data
+200-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/xto10x/.gradle/caches/transforms-3/9df07066ae13c5b7b37257d4d95e1840/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+201                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+201-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/xto10x/.gradle/caches/transforms-3/9df07066ae13c5b7b37257d4d95e1840/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+202                android:value="com.google.firebase.components.ComponentRegistrar" />
+202-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/xto10x/.gradle/caches/transforms-3/9df07066ae13c5b7b37257d4d95e1840/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+203            <meta-data
+203-->[com.google.firebase:firebase-crashlytics-ndk:18.2.11] /home/xto10x/.gradle/caches/transforms-3/70568fe1cf425e3a3e59705faddc5458/transformed/jetified-firebase-crashlytics-ndk-18.2.11/AndroidManifest.xml:35:13-37:85
+204                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+204-->[com.google.firebase:firebase-crashlytics-ndk:18.2.11] /home/xto10x/.gradle/caches/transforms-3/70568fe1cf425e3a3e59705faddc5458/transformed/jetified-firebase-crashlytics-ndk-18.2.11/AndroidManifest.xml:36:17-122
+205                android:value="com.google.firebase.components.ComponentRegistrar" />
+205-->[com.google.firebase:firebase-crashlytics-ndk:18.2.11] /home/xto10x/.gradle/caches/transforms-3/70568fe1cf425e3a3e59705faddc5458/transformed/jetified-firebase-crashlytics-ndk-18.2.11/AndroidManifest.xml:37:17-82
+206            <meta-data
+206-->[com.google.firebase:firebase-crashlytics:18.2.11] /home/xto10x/.gradle/caches/transforms-3/d2f210f30494e55ff1237bd06f00c6eb/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:18:13-20:85
+207                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+207-->[com.google.firebase:firebase-crashlytics:18.2.11] /home/xto10x/.gradle/caches/transforms-3/d2f210f30494e55ff1237bd06f00c6eb/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:19:17-115
+208                android:value="com.google.firebase.components.ComponentRegistrar" />
+208-->[com.google.firebase:firebase-crashlytics:18.2.11] /home/xto10x/.gradle/caches/transforms-3/d2f210f30494e55ff1237bd06f00c6eb/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:20:17-82
+209            <meta-data
+209-->[com.google.firebase:firebase-installations:17.0.1] /home/xto10x/.gradle/caches/transforms-3/38c233eb38ebce8c8767447b6da053e1/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+210                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+210-->[com.google.firebase:firebase-installations:17.0.1] /home/xto10x/.gradle/caches/transforms-3/38c233eb38ebce8c8767447b6da053e1/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+211                android:value="com.google.firebase.components.ComponentRegistrar" />
+211-->[com.google.firebase:firebase-installations:17.0.1] /home/xto10x/.gradle/caches/transforms-3/38c233eb38ebce8c8767447b6da053e1/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+212            <meta-data
+212-->[com.google.firebase:firebase-datatransport:18.1.4] /home/xto10x/.gradle/caches/transforms-3/22455b7ad0effc97b512d6d57fac8672/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:28:13-30:85
+213                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+213-->[com.google.firebase:firebase-datatransport:18.1.4] /home/xto10x/.gradle/caches/transforms-3/22455b7ad0effc97b512d6d57fac8672/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:29:17-115
+214                android:value="com.google.firebase.components.ComponentRegistrar" />
+214-->[com.google.firebase:firebase-datatransport:18.1.4] /home/xto10x/.gradle/caches/transforms-3/22455b7ad0effc97b512d6d57fac8672/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:30:17-82
+215        </service>
+216
+217        <provider
+217-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:9-26:38
+218            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+218-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-88
+219            android:authorities="com.neend.reactnativefirebaseappinitprovider"
+219-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-86
+220            android:exported="false"
+220-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:13-37
+221            android:initOrder="99" />
+221-->[:react-native-firebase_app] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-35
+222
+223        <activity
+223-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:27:9-44:20
+224            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+224-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:28:13-80
+225            android:excludeFromRecents="true"
+225-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:29:13-46
+226            android:exported="true"
+226-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:30:13-36
+227            android:launchMode="singleTask"
+227-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:31:13-44
+228            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+228-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:32:13-72
+229            <intent-filter>
+229-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:33:13-43:29
+230                <action android:name="android.intent.action.VIEW" />
+230-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:17-69
+230-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:25-66
+231
+232                <category android:name="android.intent.category.DEFAULT" />
+232-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:17-76
+232-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:27-73
+233                <category android:name="android.intent.category.BROWSABLE" />
+233-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:17-78
+233-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:27-75
+234
+235                <data
+235-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:17-47
+236                    android:host="firebase.auth"
+236-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:37:69-93
+237                    android:path="/"
+238                    android:scheme="genericidp" />
+238-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:23-45
+239            </intent-filter>
+240        </activity>
+241        <activity
+241-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:45:9-62:20
+242            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+242-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:46:13-79
+243            android:excludeFromRecents="true"
+243-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:47:13-46
+244            android:exported="true"
+244-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:48:13-36
+245            android:launchMode="singleTask"
+245-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:49:13-44
+246            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+246-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:50:13-72
+247            <intent-filter>
+247-->[com.google.firebase:firebase-auth:21.0.5] /home/xto10x/.gradle/caches/transforms-3/6d5800d6761c2f0585b495403f7f10ca/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:51:13-61:29
+248                <action android:name="android.intent.action.VIEW" />
+248-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:17-69
+248-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:25-66
+249
+250                <category android:name="android.intent.category.DEFAULT" />
+250-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:17-76
+250-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:27-73
+251                <category android:name="android.intent.category.BROWSABLE" />
+251-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:17-78
+251-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:27-75
+252
+253                <data
+253-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:17-47
+254                    android:host="firebase.auth"
+254-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:37:69-93
+255                    android:path="/"
+256                    android:scheme="recaptcha" />
+256-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:23-45
+257            </intent-filter>
+258        </activity>
+259        <activity android:name="com.facebook.CustomTabMainActivity" />
+259-->[com.facebook.android:facebook-common:14.1.1] /home/xto10x/.gradle/caches/transforms-3/3632695618f58b121ce2c4d8e1a62970/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:38:9-71
+259-->[com.facebook.android:facebook-common:14.1.1] /home/xto10x/.gradle/caches/transforms-3/3632695618f58b121ce2c4d8e1a62970/transformed/jetified-facebook-common-14.1.1/AndroidManifest.xml:38:19-68
+260
+261        <provider
+261-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
+262            android:name="cl.json.RNShareFileProvider"
+262-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-55
+263            android:authorities="com.neend.rnshare.fileprovider"
+263-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-72
+264            android:exported="false"
+264-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+265            android:grantUriPermissions="true" >
+265-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
+266            <meta-data
+266-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:64
+267                android:name="android.support.FILE_PROVIDER_PATHS"
+267-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+268                android:resource="@xml/share_download_paths" />
+268-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-61
+269        </provider> <!-- The main service, handles playback, playlists and media buttons -->
+270        <service
+270-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-24:19
+271            android:name="com.guichaguri.trackplayer.service.MusicService"
+271-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-75
+272            android:enabled="true"
+272-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-35
+273            android:exported="true" >
+273-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-36
+274            <intent-filter>
+274-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-23:29
+275                <action android:name="android.intent.action.MEDIA_BUTTON" />
+275-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:17-77
+275-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:25-74
+276            </intent-filter>
+277        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+278        <receiver
+278-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-33:20
+279            android:name="androidx.media.session.MediaButtonReceiver"
+279-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-70
+280            android:exported="true" >
+280-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-36
+281            <intent-filter>
+281-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-23:29
+282                <action android:name="android.intent.action.MEDIA_BUTTON" />
+282-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:17-77
+282-->[:react-native-track-player] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:25-74
+283            </intent-filter>
+284        </receiver>
+285
+286        <provider
+286-->[:react-native-webview] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+287            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+287-->[:react-native-webview] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+288            android:authorities="com.neend.fileprovider"
+288-->[:react-native-webview] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+289            android:exported="false"
+289-->[:react-native-webview] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+290            android:grantUriPermissions="true" >
+290-->[:react-native-webview] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+291            <meta-data
+291-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:64
+292                android:name="android.support.FILE_PROVIDER_PATHS"
+292-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+293                android:resource="@xml/file_provider_paths" />
+293-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-61
+294        </provider>
+295        <provider
+295-->[:rn-fetch-blob] /home/xto10x/Documents/neend-mobile-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-44:20
+296            android:name="com.RNFetchBlob.Utils.FileProvider"
+296-->[:rn-fetch-blob] /home/xto10x/Documents/neend-mobile-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-62
+297            android:authorities="com.neend.provider"
+297-->[:rn-fetch-blob] /home/xto10x/Documents/neend-mobile-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-60
+298            android:exported="false"
+298-->[:rn-fetch-blob] /home/xto10x/Documents/neend-mobile-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-37
+299            android:grantUriPermissions="true" >
+299-->[:rn-fetch-blob] /home/xto10x/Documents/neend-mobile-app/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-47
+300            <meta-data
+300-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:64
+301                android:name="android.support.FILE_PROVIDER_PATHS"
+301-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+302                android:resource="@xml/provider_paths" />
+302-->[:react-native-share] /home/xto10x/Documents/neend-mobile-app/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-61
+303        </provider>
+304
+305        <activity
+305-->[com.google.android.gms:play-services-auth:20.2.0] /home/xto10x/.gradle/caches/transforms-3/a9dd10071aacd14a37a5899a082eeb99/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+306            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+306-->[com.google.android.gms:play-services-auth:20.2.0] /home/xto10x/.gradle/caches/transforms-3/a9dd10071aacd14a37a5899a082eeb99/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+307            android:excludeFromRecents="true"
+307-->[com.google.android.gms:play-services-auth:20.2.0] /home/xto10x/.gradle/caches/transforms-3/a9dd10071aacd14a37a5899a082eeb99/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+308            android:exported="false"
+308-->[com.google.android.gms:play-services-auth:20.2.0] /home/xto10x/.gradle/caches/transforms-3/a9dd10071aacd14a37a5899a082eeb99/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+309            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+309-->[com.google.android.gms:play-services-auth:20.2.0] /home/xto10x/.gradle/caches/transforms-3/a9dd10071aacd14a37a5899a082eeb99/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+310        <!--
+311            Service handling Google Sign-In user revocation. For apps that do not integrate with
+312            Google Sign-In, this service will never be started.
+313        -->
+314        <service
+314-->[com.google.android.gms:play-services-auth:20.2.0] /home/xto10x/.gradle/caches/transforms-3/a9dd10071aacd14a37a5899a082eeb99/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+315            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+315-->[com.google.android.gms:play-services-auth:20.2.0] /home/xto10x/.gradle/caches/transforms-3/a9dd10071aacd14a37a5899a082eeb99/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+316            android:exported="true"
+316-->[com.google.android.gms:play-services-auth:20.2.0] /home/xto10x/.gradle/caches/transforms-3/a9dd10071aacd14a37a5899a082eeb99/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+317            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+317-->[com.google.android.gms:play-services-auth:20.2.0] /home/xto10x/.gradle/caches/transforms-3/a9dd10071aacd14a37a5899a082eeb99/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+318            android:visibleToInstantApps="true" />
+318-->[com.google.android.gms:play-services-auth:20.2.0] /home/xto10x/.gradle/caches/transforms-3/a9dd10071aacd14a37a5899a082eeb99/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+319
+320        <receiver
+320-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:31:9-38:20
+321            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+321-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:32:13-78
+322            android:exported="true"
+322-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:33:13-36
+323            android:permission="com.google.android.c2dm.permission.SEND" >
+323-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:34:13-73
+324            <intent-filter>
+324-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+325                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+325-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+325-->[:react-native-firebase_messaging] /home/xto10x/Documents/neend-mobile-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+326            </intent-filter>
+327        </receiver>
+328        <!--
+329             FirebaseMessagingService performs security checks at runtime,
+330             but set to not exported to explicitly avoid allowing another app to call it.
+331        -->
+332        <service
+332-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:44:9-51:19
+333            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+333-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:45:13-82
+334            android:directBootAware="true"
+334-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:46:13-43
+335            android:exported="false" >
+335-->[com.google.firebase:firebase-messaging:23.0.5] /home/xto10x/.gradle/caches/transforms-3/466b7fb85407bc639a82a75815305c5f/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
+336            <intent-filter android:priority="-500" >
+336-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:56:13-58:29
+337                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+337-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:57:17-78
+337-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:57:25-75
+338            </intent-filter>
+339        </service>
+340
+341        <activity
+341-->[com.google.android.gms:play-services-base:18.0.1] /home/xto10x/.gradle/caches/transforms-3/250be4d7e07ab2796d3d261cf4f6673b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+342            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+342-->[com.google.android.gms:play-services-base:18.0.1] /home/xto10x/.gradle/caches/transforms-3/250be4d7e07ab2796d3d261cf4f6673b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+343            android:exported="false"
+343-->[com.google.android.gms:play-services-base:18.0.1] /home/xto10x/.gradle/caches/transforms-3/250be4d7e07ab2796d3d261cf4f6673b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+344            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+344-->[com.google.android.gms:play-services-base:18.0.1] /home/xto10x/.gradle/caches/transforms-3/250be4d7e07ab2796d3d261cf4f6673b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+345
+346        <provider
+346-->[com.google.firebase:firebase-common:20.1.1] /home/xto10x/.gradle/caches/transforms-3/8126d357e7f200eb8e6f94d672e58360/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+347            android:name="com.google.firebase.provider.FirebaseInitProvider"
+347-->[com.google.firebase:firebase-common:20.1.1] /home/xto10x/.gradle/caches/transforms-3/8126d357e7f200eb8e6f94d672e58360/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+348            android:authorities="com.neend.firebaseinitprovider"
+348-->[com.google.firebase:firebase-common:20.1.1] /home/xto10x/.gradle/caches/transforms-3/8126d357e7f200eb8e6f94d672e58360/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+349            android:directBootAware="true"
+349-->[com.google.firebase:firebase-common:20.1.1] /home/xto10x/.gradle/caches/transforms-3/8126d357e7f200eb8e6f94d672e58360/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+350            android:exported="false"
+350-->[com.google.firebase:firebase-common:20.1.1] /home/xto10x/.gradle/caches/transforms-3/8126d357e7f200eb8e6f94d672e58360/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+351            android:initOrder="100" />
+351-->[com.google.firebase:firebase-common:20.1.1] /home/xto10x/.gradle/caches/transforms-3/8126d357e7f200eb8e6f94d672e58360/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+352
+353        <receiver
+353-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+354            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+354-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+355            android:enabled="true"
+355-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+356            android:exported="false" >
+356-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+357        </receiver>
+358
+359        <service
+359-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+360            android:name="com.google.android.gms.measurement.AppMeasurementService"
+360-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+361            android:enabled="true"
+361-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+362            android:exported="false" />
+362-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+363        <service
+363-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+364            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+364-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+365            android:enabled="true"
+365-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+366            android:exported="false"
+366-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+367            android:permission="android.permission.BIND_JOB_SERVICE" />
+367-->[com.google.android.gms:play-services-measurement:21.0.0] /home/xto10x/.gradle/caches/transforms-3/68c78d3f6738e9189e8bd5e1839f3dcc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+368
+369        <meta-data
+369-->[com.google.android.gms:play-services-basement:18.0.0] /home/xto10x/.gradle/caches/transforms-3/0983fac51806c600a6201b8cf19c0cc9/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+370            android:name="com.google.android.gms.version"
+370-->[com.google.android.gms:play-services-basement:18.0.0] /home/xto10x/.gradle/caches/transforms-3/0983fac51806c600a6201b8cf19c0cc9/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+371            android:value="@integer/google_play_services_version" />
+371-->[com.google.android.gms:play-services-basement:18.0.0] /home/xto10x/.gradle/caches/transforms-3/0983fac51806c600a6201b8cf19c0cc9/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+372        <!--
+373         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+374         with the application context. This config is merged in with the host app's manifest,
+375         but there can only be one provider with the same authority activated at any given
+376         point; so if the end user has two or more different apps that use Facebook SDK, only the
+377         first one will be able to use the provider. To work around this problem, we use the
+378         following placeholder in the authority to identify each host application as if it was
+379         a completely different provider.
+380        -->
+381        <provider
+381-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:41:9-44:40
+382            android:name="com.facebook.internal.FacebookInitProvider"
+382-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:42:13-70
+383            android:authorities="com.neend.FacebookInitProvider"
+383-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:43:13-72
+384            android:exported="false" />
+384-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:44:13-37
+385
+386        <receiver
+386-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:46:9-52:20
+387            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+387-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:47:13-86
+388            android:exported="false" >
+388-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:48:13-37
+389            <intent-filter>
+389-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:49:13-51:29
+390                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+390-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:50:17-95
+390-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:50:25-92
+391            </intent-filter>
+392        </receiver>
+393        <receiver
+393-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:53:9-59:20
+394            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+394-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:54:13-118
+395            android:exported="false" >
+395-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:55:13-37
+396            <intent-filter>
+396-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:56:13-58:29
+397                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+397-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:57:17-103
+397-->[com.facebook.android:facebook-core:14.1.1] /home/xto10x/.gradle/caches/transforms-3/46056fb8cb095d424da8d75e58b62e6a/transformed/jetified-facebook-core-14.1.1/AndroidManifest.xml:57:25-100
+398            </intent-filter>
+399        </receiver>
+400
+401        <meta-data
+401-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/xto10x/.gradle/caches/transforms-3/99d0f5c6c5dcdb6998a5c85ac3b79401/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+402            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+402-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/xto10x/.gradle/caches/transforms-3/99d0f5c6c5dcdb6998a5c85ac3b79401/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+403            android:value="GlideModule" />
+403-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/xto10x/.gradle/caches/transforms-3/99d0f5c6c5dcdb6998a5c85ac3b79401/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+404
+405        <provider
+405-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/xto10x/.gradle/caches/transforms-3/b922715074c23214bcfaf5b1530f7db1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+406            android:name="androidx.startup.InitializationProvider"
+406-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/xto10x/.gradle/caches/transforms-3/b922715074c23214bcfaf5b1530f7db1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:27:13-67
+407            android:authorities="com.neend.androidx-startup"
+407-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/xto10x/.gradle/caches/transforms-3/b922715074c23214bcfaf5b1530f7db1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:28:13-68
+408            android:exported="false" >
+408-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/xto10x/.gradle/caches/transforms-3/b922715074c23214bcfaf5b1530f7db1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:29:13-37
+409            <meta-data
+409-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/xto10x/.gradle/caches/transforms-3/b922715074c23214bcfaf5b1530f7db1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+410                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+410-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/xto10x/.gradle/caches/transforms-3/b922715074c23214bcfaf5b1530f7db1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+411                android:value="androidx.startup" />
+411-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/xto10x/.gradle/caches/transforms-3/b922715074c23214bcfaf5b1530f7db1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+412        </provider>
+413
+414        <service
+414-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/xto10x/.gradle/caches/transforms-3/8bda3cc90dda2151e22a084c57a13ae9/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:29:9-35:19
+415            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+415-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/xto10x/.gradle/caches/transforms-3/8bda3cc90dda2151e22a084c57a13ae9/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:30:13-103
+416            android:exported="false" >
+416-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/xto10x/.gradle/caches/transforms-3/8bda3cc90dda2151e22a084c57a13ae9/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:31:13-37
+417            <meta-data
+417-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/xto10x/.gradle/caches/transforms-3/8bda3cc90dda2151e22a084c57a13ae9/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:32:13-34:39
+418                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+418-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/xto10x/.gradle/caches/transforms-3/8bda3cc90dda2151e22a084c57a13ae9/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:33:17-94
+419                android:value="cct" />
+419-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /home/xto10x/.gradle/caches/transforms-3/8bda3cc90dda2151e22a084c57a13ae9/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:34:17-36
+420        </service>
+421        <service
+421-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/xto10x/.gradle/caches/transforms-3/d3d53801b32d58b5792f4f440620a208/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:26:9-30:19
+422            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+422-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/xto10x/.gradle/caches/transforms-3/d3d53801b32d58b5792f4f440620a208/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:27:13-117
+423            android:exported="false"
+423-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/xto10x/.gradle/caches/transforms-3/d3d53801b32d58b5792f4f440620a208/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:28:13-37
+424            android:permission="android.permission.BIND_JOB_SERVICE" >
+424-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/xto10x/.gradle/caches/transforms-3/d3d53801b32d58b5792f4f440620a208/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:29:13-69
+425        </service>
+426
+427        <receiver
+427-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/xto10x/.gradle/caches/transforms-3/d3d53801b32d58b5792f4f440620a208/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:32:9-34:40
+428            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+428-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/xto10x/.gradle/caches/transforms-3/d3d53801b32d58b5792f4f440620a208/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:33:13-132
+429            android:exported="false" />
+429-->[com.google.android.datatransport:transport-runtime:3.1.5] /home/xto10x/.gradle/caches/transforms-3/d3d53801b32d58b5792f4f440620a208/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:34:13-37
+430
+431        <service
+431-->[com.moengage:core:5.4.1] /home/xto10x/.gradle/caches/transforms-3/fd8c6a7be916dffff0d0a4efad08178b/transformed/jetified-core-5.4.1/AndroidManifest.xml:22:9-24:40
+432            android:name="com.moengage.core.MoEWorker"
+432-->[com.moengage:core:5.4.1] /home/xto10x/.gradle/caches/transforms-3/fd8c6a7be916dffff0d0a4efad08178b/transformed/jetified-core-5.4.1/AndroidManifest.xml:23:13-55
+433            android:exported="false" />
+433-->[com.moengage:core:5.4.1] /home/xto10x/.gradle/caches/transforms-3/fd8c6a7be916dffff0d0a4efad08178b/transformed/jetified-core-5.4.1/AndroidManifest.xml:24:13-37
+434
+435        <receiver
+435-->[com.moengage:core:5.4.1] /home/xto10x/.gradle/caches/transforms-3/fd8c6a7be916dffff0d0a4efad08178b/transformed/jetified-core-5.4.1/AndroidManifest.xml:26:9-29:40
+436            android:name="com.moengage.core.MoEAlarmReceiver"
+436-->[com.moengage:core:5.4.1] /home/xto10x/.gradle/caches/transforms-3/fd8c6a7be916dffff0d0a4efad08178b/transformed/jetified-core-5.4.1/AndroidManifest.xml:27:13-62
+437            android:enabled="true"
+437-->[com.moengage:core:5.4.1] /home/xto10x/.gradle/caches/transforms-3/fd8c6a7be916dffff0d0a4efad08178b/transformed/jetified-core-5.4.1/AndroidManifest.xml:28:13-35
+438            android:exported="false" />
+438-->[com.moengage:core:5.4.1] /home/xto10x/.gradle/caches/transforms-3/fd8c6a7be916dffff0d0a4efad08178b/transformed/jetified-core-5.4.1/AndroidManifest.xml:29:13-37
+439
+440        <service
+440-->[com.moengage:core:5.4.1] /home/xto10x/.gradle/caches/transforms-3/fd8c6a7be916dffff0d0a4efad08178b/transformed/jetified-core-5.4.1/AndroidManifest.xml:31:9-33:72
+441            android:name="com.moengage.core.DataSyncJob"
+441-->[com.moengage:core:5.4.1] /home/xto10x/.gradle/caches/transforms-3/fd8c6a7be916dffff0d0a4efad08178b/transformed/jetified-core-5.4.1/AndroidManifest.xml:32:13-57
+442            android:permission="android.permission.BIND_JOB_SERVICE" />
+442-->[com.moengage:core:5.4.1] /home/xto10x/.gradle/caches/transforms-3/fd8c6a7be916dffff0d0a4efad08178b/transformed/jetified-core-5.4.1/AndroidManifest.xml:33:13-69
+443
+444        <receiver
+444-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:22:9-24:40
+445            android:name="com.moengage.pushbase.MoEPushReceiver"
+445-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:23:13-65
+446            android:exported="false" />
+446-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:24:13-37
+447
+448        <activity
+448-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:26:9-30:86
+449            android:name="com.moengage.pushbase.activities.PushTracker"
+449-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:27:13-72
+450            android:configChanges="orientation|screenSize"
+450-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:28:13-59
+451            android:noHistory="true"
+451-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:29:13-37
+452            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+452-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:30:13-83
+453        <activity
+453-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:31:9-37:86
+454            android:name="com.moengage.pushbase.activities.PushClickDialogTracker"
+454-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:32:13-83
+455            android:configChanges="orientation|screenSize"
+455-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:33:13-59
+456            android:excludeFromRecents="true"
+456-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:34:13-46
+457            android:launchMode="singleTask"
+457-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:35:13-44
+458            android:taskAffinity=":NotificationDialog"
+458-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:36:13-55
+459            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+459-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:37:13-83
+460
+461        <service
+461-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:39:9-41:40
+462            android:name="com.moengage.pushbase.push.MoEPushWorker"
+462-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:40:13-68
+463            android:exported="false" />
+463-->[com.moengage:pushbase:5.4.0] /home/xto10x/.gradle/caches/transforms-3/eb3b0e2c25ed75b54d2b6dd304a4e048/transformed/jetified-pushbase-5.4.0/AndroidManifest.xml:41:13-37
+464        <service
+464-->[com.moengage:realtime-trigger:1.2.00] /home/xto10x/.gradle/caches/transforms-3/8888318e4ea2b8ea00fef17e2f777054/transformed/jetified-realtime-trigger-1.2.00/AndroidManifest.xml:24:9-27:19
+465            android:name="com.moengage.rtt.internal.RttIntentService"
+465-->[com.moengage:realtime-trigger:1.2.00] /home/xto10x/.gradle/caches/transforms-3/8888318e4ea2b8ea00fef17e2f777054/transformed/jetified-realtime-trigger-1.2.00/AndroidManifest.xml:25:13-70
+466            android:exported="false" >
+466-->[com.moengage:realtime-trigger:1.2.00] /home/xto10x/.gradle/caches/transforms-3/8888318e4ea2b8ea00fef17e2f777054/transformed/jetified-realtime-trigger-1.2.00/AndroidManifest.xml:26:13-37
+467        </service>
+468
+469        <receiver
+469-->[com.moengage:realtime-trigger:1.2.00] /home/xto10x/.gradle/caches/transforms-3/8888318e4ea2b8ea00fef17e2f777054/transformed/jetified-realtime-trigger-1.2.00/AndroidManifest.xml:29:9-33:20
+470            android:name="com.moengage.rtt.internal.RttReceiver"
+470-->[com.moengage:realtime-trigger:1.2.00] /home/xto10x/.gradle/caches/transforms-3/8888318e4ea2b8ea00fef17e2f777054/transformed/jetified-realtime-trigger-1.2.00/AndroidManifest.xml:30:13-65
+471            android:enabled="true"
+471-->[com.moengage:realtime-trigger:1.2.00] /home/xto10x/.gradle/caches/transforms-3/8888318e4ea2b8ea00fef17e2f777054/transformed/jetified-realtime-trigger-1.2.00/AndroidManifest.xml:31:13-35
+472            android:exported="false" >
+472-->[com.moengage:realtime-trigger:1.2.00] /home/xto10x/.gradle/caches/transforms-3/8888318e4ea2b8ea00fef17e2f777054/transformed/jetified-realtime-trigger-1.2.00/AndroidManifest.xml:32:13-37
+473        </receiver>
+474
+475        <service
+475-->[com.moengage:realtime-trigger:1.2.00] /home/xto10x/.gradle/caches/transforms-3/8888318e4ea2b8ea00fef17e2f777054/transformed/jetified-realtime-trigger-1.2.00/AndroidManifest.xml:35:9-37:72
+476            android:name="com.moengage.rtt.internal.RttSyncJob"
+476-->[com.moengage:realtime-trigger:1.2.00] /home/xto10x/.gradle/caches/transforms-3/8888318e4ea2b8ea00fef17e2f777054/transformed/jetified-realtime-trigger-1.2.00/AndroidManifest.xml:36:13-64
+477            android:permission="android.permission.BIND_JOB_SERVICE" />
+477-->[com.moengage:realtime-trigger:1.2.00] /home/xto10x/.gradle/caches/transforms-3/8888318e4ea2b8ea00fef17e2f777054/transformed/jetified-realtime-trigger-1.2.00/AndroidManifest.xml:37:13-69
+478
+479        <receiver
+479-->[com.moengage:push-amp:3.2.00] /home/xto10x/.gradle/caches/transforms-3/c26c1daf078f308c723c3e6120b5e55c/transformed/jetified-push-amp-3.2.00/AndroidManifest.xml:12:9-16:20
+480            android:name="com.moengage.pushamp.internal.PushAmpAlarmReceiver"
+480-->[com.moengage:push-amp:3.2.00] /home/xto10x/.gradle/caches/transforms-3/c26c1daf078f308c723c3e6120b5e55c/transformed/jetified-push-amp-3.2.00/AndroidManifest.xml:13:13-78
+481            android:enabled="true"
+481-->[com.moengage:push-amp:3.2.00] /home/xto10x/.gradle/caches/transforms-3/c26c1daf078f308c723c3e6120b5e55c/transformed/jetified-push-amp-3.2.00/AndroidManifest.xml:14:13-35
+482            android:exported="false" >
+482-->[com.moengage:push-amp:3.2.00] /home/xto10x/.gradle/caches/transforms-3/c26c1daf078f308c723c3e6120b5e55c/transformed/jetified-push-amp-3.2.00/AndroidManifest.xml:15:13-37
+483        </receiver>
+484
+485        <service
+485-->[com.moengage:push-amp:3.2.00] /home/xto10x/.gradle/caches/transforms-3/c26c1daf078f308c723c3e6120b5e55c/transformed/jetified-push-amp-3.2.00/AndroidManifest.xml:18:9-21:19
+486            android:name="com.moengage.pushamp.internal.PushAmpIntentService"
+486-->[com.moengage:push-amp:3.2.00] /home/xto10x/.gradle/caches/transforms-3/c26c1daf078f308c723c3e6120b5e55c/transformed/jetified-push-amp-3.2.00/AndroidManifest.xml:19:13-78
+487            android:exported="false" >
+487-->[com.moengage:push-amp:3.2.00] /home/xto10x/.gradle/caches/transforms-3/c26c1daf078f308c723c3e6120b5e55c/transformed/jetified-push-amp-3.2.00/AndroidManifest.xml:20:13-37
+488        </service>
+489        <service
+489-->[com.moengage:push-amp:3.2.00] /home/xto10x/.gradle/caches/transforms-3/c26c1daf078f308c723c3e6120b5e55c/transformed/jetified-push-amp-3.2.00/AndroidManifest.xml:22:9-25:19
+490            android:name="com.moengage.pushamp.internal.PushAmpSyncJob"
+490-->[com.moengage:push-amp:3.2.00] /home/xto10x/.gradle/caches/transforms-3/c26c1daf078f308c723c3e6120b5e55c/transformed/jetified-push-amp-3.2.00/AndroidManifest.xml:23:13-72
+491            android:permission="android.permission.BIND_JOB_SERVICE" >
+491-->[com.moengage:push-amp:3.2.00] /home/xto10x/.gradle/caches/transforms-3/c26c1daf078f308c723c3e6120b5e55c/transformed/jetified-push-amp-3.2.00/AndroidManifest.xml:24:13-69
+492        </service>
+493
+494        <activity
+494-->[com.moengage:integration-verifier:3.1.00] /home/xto10x/.gradle/caches/transforms-3/a86a1f502a7f92b82bbd307354ea9e82/transformed/jetified-integration-verifier-3.1.00/AndroidManifest.xml:24:9-37:20
+495            android:name="com.moengage.integrationverifier.internal.IntegrationVerificationActivity"
+495-->[com.moengage:integration-verifier:3.1.00] /home/xto10x/.gradle/caches/transforms-3/a86a1f502a7f92b82bbd307354ea9e82/transformed/jetified-integration-verifier-3.1.00/AndroidManifest.xml:25:13-101
+496            android:exported="true" >
+496-->[com.moengage:integration-verifier:3.1.00] /home/xto10x/.gradle/caches/transforms-3/a86a1f502a7f92b82bbd307354ea9e82/transformed/jetified-integration-verifier-3.1.00/AndroidManifest.xml:26:13-36
+497            <intent-filter>
+497-->[com.moengage:integration-verifier:3.1.00] /home/xto10x/.gradle/caches/transforms-3/a86a1f502a7f92b82bbd307354ea9e82/transformed/jetified-integration-verifier-3.1.00/AndroidManifest.xml:27:13-36:29
+498                <action android:name="android.intent.action.VIEW" />
+498-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:17-69
+498-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:33:25-66
+499
+500                <category android:name="android.intent.category.DEFAULT" />
+500-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:17-76
+500-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:34:27-73
+501                <category android:name="android.intent.category.BROWSABLE" />
+501-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:17-78
+501-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:35:27-75
+502
+503                <data
+503-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:17-47
+504                    android:host="integration"
+504-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:37:69-93
+505                    android:scheme="moengage" />
+505-->/home/xto10x/Documents/neend-mobile-app/android/app/src/main/AndroidManifest.xml:36:23-45
+506            </intent-filter>
+507        </activity>
+508    </application>
+509
+510</manifest>

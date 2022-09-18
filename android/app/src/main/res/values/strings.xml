@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">neend</string>
+    <string name="facebook_app_id">802263130463082</string>
+    <string name="facebook_client_token">4c0c5fec469b801e1505635d53911aec</string>
+    <string name="fb_login_protocol_scheme">fb802263130463082</string>
+    <string name="truecaller_appkey">RMejI1c833a57b18645ba90cb13df45363dc0</string>
+</resources>
